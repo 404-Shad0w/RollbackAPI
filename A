@@ -1,7 +1,6 @@
+Aquí tienes tu `README.md` y descripción del release completamente actualizados y corregidos para una **API reutilizable** (no plugin `.phar`), con redacción profesional y adaptada al contexto real del proyecto:
+
 ---
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 
 ```markdown
 # 🔄 RollbackAPI
@@ -131,3 +130,5 @@ RollbackAPI/
 ## 📝 Licencia
 
 Este proyecto está bajo la licencia **MIT**. Puedes usarlo, modificarlo y distribuirlo libremente en tus propios plugins.
+
+---
