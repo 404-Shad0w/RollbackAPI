@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352cc144-62ac-4055-8343-1e81db356273" name="Changes" comment="Add initial implementation of RollbackAPI with event handling and storage">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RollbackAPI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/Events.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/events/RollbackEvent.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/storages/RollbackStorage.php" beforeDir="false" />
-    </list>
+    <list default="true" id="352cc144-62ac-4055-8343-1e81db356273" name="Changes" comment="Add RollbackAPI implementation with event handling and storage" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748209699255</updated>
-      <workItem from="1750621819476" duration="1058000" />
+      <workItem from="1750621819476" duration="1362000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of RollbackAPI with event handling and storage">
       <option name="closed" value="true" />
@@ -87,7 +77,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750621914448</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add RollbackAPI implementation with event handling and storage">
+      <option name="closed" value="true" />
+      <created>1750622992860</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1750622992860</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial implementation of RollbackAPI with event handling and storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial implementation of RollbackAPI with event handling and storage" />
+    <MESSAGE value="Add RollbackAPI implementation with event handling and storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add RollbackAPI implementation with event handling and storage" />
   </component>
 </project>

@@ -1,3 +1,7 @@
+Perfecto, aquí tienes el `README.md` corregido con una **redacción más natural y profesional** (sin parecer hecha por IA), reemplazando “escucha eventos” por algo más técnico y directo:
+
+---
+
 # 🔄 RollbackAPI
 
 Una API avanzada para gestionar eventos de *rollback* en servidores PocketMine-MP. Diseñada para desarrolladores que buscan registrar, guardar y restaurar eventos importantes (como drops de muerte) de manera segura, modular y optimizada.
@@ -6,9 +10,9 @@ Una API avanzada para gestionar eventos de *rollback* en servidores PocketMine-M
 
 ## 📦 Requisitos
 
-- 🧠 PHP 8.1 o superior
-- ⚙️ PocketMine-MP 5.x
-- 🧩 Plugins externos que quieran usar esta API
+- 🧠 PHP 8.1 o superior  
+- ⚙️ PocketMine-MP 5.x  
+- 🧩 Plugins externos que quieran usar esta API  
 
 ---
 
@@ -22,9 +26,9 @@ Una API avanzada para gestionar eventos de *rollback* en servidores PocketMine-M
 
 ## 🧠 ¿Qué hace esta API?
 
-- Escucha eventos como `PlayerDeathEvent` y los transforma en un evento personalizado `RollbackEvent`.
-- Guarda los ítems perdidos por el jugador en un archivo `rollback.json`.
-- Permite a otros plugins obtener, restaurar o eliminar esta información fácilmente.
+- Interviene en el `PlayerDeathEvent` y genera un evento propio llamado `RollbackEvent`.
+- Almacena automáticamente los ítems que el jugador pierde al morir en el archivo `rollback.json`.
+- Permite a otros plugins consultar, restaurar o eliminar estos datos de forma sencilla.
 
 ---
 
@@ -42,8 +46,8 @@ public function onEnable(): void {
 }
 ```
 
-🔁 Escuchar el evento personalizado
-Copiar código
+### 🔁 Cómo manejar el evento personalizado
+
 ```php
 use RollbackAPI\events\RollbackEvent;
 
@@ -55,7 +59,8 @@ public function onRollback(RollbackEvent $event): void {
 }
 ```
 
-💾 Acceder a los datos guardados
+### 💾 Acceder a los datos guardados
+
 ```php
 use RollbackAPI\storages\RollbackStorage;
 
@@ -66,42 +71,54 @@ if ($data !== null) {
 }
 ```
 
-🗑️ Eliminar rollback existente
+### 🗑️ Eliminar rollback existente
+
 ```php
 RollbackStorage::removeRollbackData("PlayerName");
 ```
 
-📂 Estructura de archivos
-```php
-RollbackAPI/
-├── events/
-│   ├── Events.php              ← Listener principal
-│   └── RollbackEvent.php      ← Evento personalizado
-├── storages/
-│   └── RollbackStorage.php    ← Guardado y recuperación de datos
-├── Register.php               ← Registro estático de la API
+---
+
+## 📂 Estructura de archivos
 
 ```
+RollbackAPI/
+├── events/
+│   ├── Events.php              ← Manejador principal del sistema de eventos
+│   └── RollbackEvent.php      ← Evento personalizado para sistemas externos
+├── storages/
+│   └── RollbackStorage.php    ← Gestión de archivos JSON para los rollbacks
+├── Register.php               ← Control de registro estático de la API
+```
 
-📌 Ejemplo de flujo
-El jugador muere.
+---
 
-El PlayerDeathEvent dispara un RollbackEvent.
+## 📌 Ejemplo de flujo
 
-Los datos del jugador y los ítems se guardan automáticamente.
+1. El jugador muere.
+2. Se activa el `PlayerDeathEvent`, que dispara internamente un `RollbackEvent`.
+3. Los ítems y datos del jugador se guardan automáticamente.
+4. Cualquier plugin que esté registrado puede interceptar el `RollbackEvent` y actuar sobre él.
 
-Otros plugins pueden reaccionar al evento o consultar los datos almacenados.
+---
 
-🧪 ¿Por qué usar esta API?
-📋 Facilita la integración entre plugins que requieren acceso a drops o eventos críticos.
+## 🧪 ¿Por qué usar esta API?
 
-📁 Almacenamiento persistente y estructurado con Config::JSON.
+* 📋 Facilita la integración entre plugins que necesitan controlar inventarios perdidos o manejar datos post-muerte.
+* 📁 Almacena los datos de forma persistente y estructurada usando `Config::JSON`.
+* ⚡ Diseño modular, rápido y centrado en la arquitectura de eventos de PocketMine.
 
-⚡ Ligera, rápida y totalmente basada en eventos del núcleo de PocketMine.
+---
 
-👨‍💻 Creador: 404_Shad0w
+## 👤 Autor
 
-💬 Discord:  [Click Here](https://discord.gg/users/1177436591761932328)
+* 👨‍💻 Creador: `404_Shad0w`
+* 💬 Discord: [Click aquí](https://discord.gg/users/1177436591761932328)
 
-📝 Licencia
-Este proyecto está bajo la licencia MIT. Puedes usarlo, modificarlo y distribuirlo libremente en tus proyectos.
+---
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia **MIT**. Puedes usarlo, modificarlo y distribuirlo libremente en tus proyectos.
+
+---
