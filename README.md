@@ -1,5 +1,3 @@
-Perfecto, aquí tienes el `README.md` corregido con una **redacción más natural y profesional** (sin parecer hecha por IA), reemplazando “escucha eventos” por algo más técnico y directo:
-
 ---
 
 # 🔄 RollbackAPI
