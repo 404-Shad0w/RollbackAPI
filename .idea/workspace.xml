@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352cc144-62ac-4055-8343-1e81db356273" name="Changes" comment="Refactor workspace.xml to streamline change list representation and update work item duration">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-    </list>
+    <list default="true" id="352cc144-62ac-4055-8343-1e81db356273" name="Changes" comment="asd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +14,12 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -71,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748209699255</updated>
       <workItem from="1750621819476" duration="3759000" />
-      <workItem from="1750625772543" duration="312000" />
+      <workItem from="1750625772543" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial implementation of RollbackAPI with event handling and storage">
       <option name="closed" value="true" />
@@ -145,7 +149,31 @@
       <option name="project" value="LOCAL" />
       <updated>1750625877996</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Refactor workspace.xml to streamline change list representation and update work item duration">
+      <option name="closed" value="true" />
+      <created>1750626104779</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1750626104779</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Remove license badge and unnecessary markdown from README.md">
+      <option name="closed" value="true" />
+      <created>1750626166614</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1750626166614</updated>
+    </task>
+    <task id="LOCAL-00012" summary="asd">
+      <option name="closed" value="true" />
+      <created>1750626469596</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750626469596</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +195,8 @@
     <MESSAGE value="Add RollbackAPI implementation with event handling and storage" />
     <MESSAGE value="Update README.md for improved clarity and professionalism" />
     <MESSAGE value="Refactor workspace.xml to streamline change list representation and update work item duration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor workspace.xml to streamline change list representation and update work item duration" />
+    <MESSAGE value="Remove license badge and unnecessary markdown from README.md" />
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
 </project>
