@@ -113,7 +113,7 @@ RollbackAPI/
 ## 👤 Autor
 
 * 👨‍💻 Creador: `404_Shad0w`
-* 💬 Discord: [Click aquí](https://discord.gg/users/1177436591761932328)
+* 💬 Discord: [Click aquí](https://discord.com/users/1177436591761932328)
 
 ---
 
