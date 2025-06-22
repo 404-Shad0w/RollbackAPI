@@ -1,9 +1,4 @@
 ---
-
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-
-```markdown
 # 🔄 RollbackAPI
 
 Una API avanzada para gestionar eventos de *rollback* en servidores PocketMine-MP. Diseñada para desarrolladores que buscan registrar, guardar y restaurar eventos importantes (como los drops de un jugador al morir) de forma segura, modular y eficiente.
