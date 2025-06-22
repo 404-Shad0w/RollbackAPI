@@ -27,7 +27,6 @@ class Register
             return;
         }
 
-        // Register the API
         self::$registered = true;
         Server::getInstance()->getPluginManager()->registerEvents(new Events(self::$plugin), self::$plugin);
     }
